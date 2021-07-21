@@ -1,7 +1,7 @@
 # SFQRScaner
 我自己写的二维码扫描器
 ## 示例
-![示例](https://github.com/AbnormalProgrammer/SFRotateAroundAxis/raw/main/resources/example.gif)
+![示例](https://github.com/AbnormalProgrammer/SFQRScaner/raw/main/resources/example.gif)
 ## 它是什么？
 它是个很简单，功能很单一的二维码扫描器。
 ## 它有什么用？
