@@ -1,26 +1,10 @@
-# SFQRScaner
-我自己写的二维码扫描器
-## 示例
-![示例](https://github.com/AbnormalProgrammer/SFRotateAroundAxis/raw/main/resources/example.gif)
-## 它是什么？
-它是个很简单，功能很单一的二维码扫描器。
-## 它有什么用？
-1. 通过摄像头扫描二维码，解析出字符串。
-2. 通过iOS手机相册解读二维码，解析出字符串。
-## 它的需求背景是什么？
-这东西太常用了，几乎每个APP都有扫码功能。
-## 行为表现
-它是通过扫描或者处理图片，解析出其中包含的信息字符串，供程序处理。
-## 原理
-就是系统API的调用。
-## 如何使用？
-1. 遵循`SFQRScanerProtocol`。
-2. 确保已经获取到相机权限。
-3. 在合适的时机调用`internal func run(_ containerView:UIView,_ ior:CGRect?) -> Void`。
-4. 使用完毕调用`internal func stop() -> Void`。
+//
+//  ViewController.swift
+//  SFQRScaner
+//
+//  Created by Stroman on 2021/7/11.
+//
 
-下面是使用示例代码：<br>
-```
 import UIKit
 import AVFoundation
 
@@ -124,13 +108,4 @@ class ViewController: UIViewController,SFQRScanerProtocol,UINavigationController
         }
     }
 }
-```
-源代码在source文件夹里面，请自行取用。
-## 适用环境
-iOS 14.5及以上
-<br>swift 5.0
-<br>XCode 12
-## 联系方式
-我的profile里面有联系方式
-## 许可证
-本控件遵循MIT许可，详情请见[LICENSE](https://github.com/AbnormalProgrammer/SFQRScaner/blob/main/LICENSE)。
+
